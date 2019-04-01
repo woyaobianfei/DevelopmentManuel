@@ -1,0 +1,49 @@
+{
+    "title": "后台开发手册",
+    "author": "ace",
+    "styles": {
+    	"website": "styles/website.css"
+ 	},
+    "plugins": [
+        "-sharing",
+        "include-codeblock",
+        "mathjax",
+        "splitter",
+        "ace",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "collapsible-menu",
+        "-livereload",
+        "prism",
+        "-highlight",
+        "url-embed",
+        "page-footer-ex",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": false
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ]
+        },
+        "page-footer-ex": {
+            "copyright": "By Ace，用于后台基础开发指导",
+            "markdown": true,
+            "update_label": "此页面修订于：",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "associatedWithSummary": false,
+            "multipleH1": false
+        }
+    }
+}
